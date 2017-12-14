@@ -1,0 +1,68 @@
+/*Home style*/
+nav{
+list-style: none;	
+}
+nav li{
+cursor: pointer;
+}
+nav li a {
+text-decoration: none;
+display: block;
+width: 100%;
+text-transform: uppercase;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+font-weight: 700;
+color: #60606E;
+line-height: 100px;
+text-align: center;
+}
+nav li a:hover{
+text-decoration: none;
+transition: color 0.5s ease-in-out 0.1s;
+}
+.margin{
+margin: 0 0 25px 0;
+}
+.home{
+background-image: url(../img/HeaderFon.jpg);
+background-attachment: fixed;
+height: 736px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+.home h1 span{
+text-transform: uppercase;
+}
+.home h1{
+    font-size: 35px;
+	font-family: 'Bungee', cursive;
+	    padding-top: 65px;
+	line-height: 60px;
+}
+.marginContent{
+margin-top: 150px;
+}
+
+.right{
+float: right;
+}
+.left{
+float: left;
+}
+header img{
+    border-radius: 50%;
+    height: 286px;
+}
+.content img {
+    width: auto;
+    height: 117px;
+}
+/* end Home style*/
+
+
+
+
+
+
