@@ -5,9 +5,9 @@
 	<title>Petriv Nazar</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -51,7 +51,7 @@
     </header>
     <div class="container">
     	<div class="about-me">
-    		<img class="float-left img-heading d-none d-sm-inline-block" src="img/pet.jpg" alt="hellow">
+    		<img class="float-left img-heading d-none d-sm-inline-block" src="img/about.jpg" alt="about">
     		<p>
     			Hello, my name is Petriv Nazar. I'am Student of SoftServe IT Academy.
     			I have studied programming at the university.
@@ -68,34 +68,138 @@
     </div>
     <div class="container">
     <hr>
-    <h2 class="text-center" id="events">Events</h1>
-    <h3 class="text-center">Last places I visited:</h2>
+    <h2 class="text-center" id="events">Events</h2>
+    <h3 class="text-center">Last places I visited:</h3>
     <div class="row">
         <div class="article row col-md-6 col-12">
             <div class="article-thumbnail col-4">
-        		<img src="img/sicil.jpg" alt="hellow">
+        		<img src="img/sicil.jpg" alt="sicilia">
             </div>
             <div class="article-content col-8">
                 Sicily - a wonderful island of Italy which is washed by three seas. Met us with warm weather. Given the incredible
                 impressions especially impressed by the traffic on the roads...
-                <button type="button" class="btn btn-link" >More <i class="fa fa-eye" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-link" data-toggle="modal" data-target=".modal-Sicily"> More <i class="fa fa-eye" aria-hidden="true"></i></button>
+                <div class="modal fade modal-Sicily" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    <div id="carouselSicilyControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="img/itali/friends.jpg" alt="friends">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/itali/mountaine.jpg" alt="mountaine">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/itali/white.jpg" alt="white">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselSicilyControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselSicilyControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <br>
+                    <p>Sicily -  is the largest island in the Mediterranean Sea. It is an autonomous region of Italy, 
+                    in Southern Italy along with surrounding minor islands, officially referred to as Regione Siciliana.    
+                    The earliest archaeological evidence of human activity on the island dates from as early as 12,000 BC.
+                    <br>
+                    <br>
+                    By around 750 BC, Sicily had three Phoenician and a dozen Greek colonies and, for the next 600 years, 
+                    it was the site of the Sicilian Wars and the Punic Wars. After the fall of the Roman Empire in the 
+                    5th century AD, Sicily was ruled during the Early Middle Ages by the Vandals, the Ostrogoths, 
+                    the Byzantine Empire, and the Emirate of Sicily. 
+                    <br>
+                    <br>
+                    The Norman conquest of southern Italy led 
+                    to the creation of the Kingdom of Sicily, which was subsequently ruled by the Hohenstaufen, 
+                    the Capetian House of Anjou, Spain, the House of Habsburg,[7] It was finally unified under
+                    the House of Bourbon with the Kingdom of Naples as the Kingdom of the Two Sicilies. 
+                    <br>
+                    <br>
+                    It became part of Italy in 1860 following the Expedition of the Thousand, a revolt led
+                    by Giuseppe Garibaldi during the Italian unification, and a plebiscite. Sicily was given 
+                    special status as an autonomous region after the Italian constitutional referendum of 1946.
+                    </p>
+                    </div>
+                  </div>
+                </div>               
             </div>
         </div>    
-        
         <div class="article row col-md-6 col-12">
             <div class="article-thumbnail col-4">
-        		<img src="img/amster.jpg" alt="hellow">
+        		<img src="img/amster.jpg" alt="amsterdam">
         	</div>
             <div class="article-content col-8">
                  For many people, Amsterdam is associated with drugs, with red streets 
                  or diamonds. For me, this city is associated with museums. You need to go there ...
-                <button type="button" class="btn btn-link" >More <i class="fa fa-eye" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-link" data-toggle="modal" data-target=".modal-Amsterdam"> More <i class="fa fa-eye" aria-hidden="true"></i></button>
+                
+                <div class="modal fade modal-Amsterdam" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                    
+                    <div id="carouselAmsterdamControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="img/amsterdam/ajax.jpg" alt="ajax">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/amsterdam/amst.jpg" alt="amst">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/amsterdam/iam.jpg" alt="iam">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselAmsterdamControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselAmsterdamControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <br>
+                    <p>Amsterdam - is the capital and most populous municipality of the Netherlands. Its status as the capital 
+                    is mandated by the Constitution of the Netherlands, although it is not the seat of the government, which is The Hague.
+                    <br>
+                    <br>
+                    Amsterdam has a population of 851,373 within the city proper, 1,351,587 in the urban area, and 2,410,960 in the Amsterdam 
+                    metropolitan area. The city is located in the province of North Holland in the west of the country but is not its capital,
+                    which is Haarlem. The metropolitan area comprises much of the northern part of the Randstad, one of the larger conurbations in Europe,
+                    with a population of approximately 7 million .
+                    <br>
+                    <br>
+                    As the commercial capital of the Netherlands and one of the top financial centres in Europe, Amsterdam is considered an alpha world city
+                    by the Globalization and World Cities study group. The city is also the cultural capital of the Netherlands. Many large Dutch institutions
+                    have their headquarters there, and seven of the world's 500 largest companies, including Philips and ING, are based in the city.
+                    <br>
+                    <br>
+                    In 2012, Amsterdam was ranked the second best city to live in by the Economist Intelligence Unit and 12th globally on quality 
+                    of living for environment and infrastructure by Mercer. The city was ranked 3rd in innovation by Australian innovation agency
+                    2thinknow in their Innovation Cities Index 2009. The Amsterdam seaport to this day remains the second in the country, and the
+                    fifth largest seaport in Europe. Famous Amsterdam residents include the diarist Anne Frank, artists Rembrandt van Rijn and 
+                    Vincent van Gogh, and philosopher Baruch Spinoza.
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                
             </div>
         </div>  
         
         <div class="article row col-md-6 col-12">
             <div class="article-thumbnail col-4">
-        		<img src="img/barselona.jpg" alt="hellow">
+        		<img src="img/barselona.jpg" alt="barselona">
         	</div>
             <div class="article-content col-8">
                  Barcelona is the capital of Catalonia. An incredible city with sea flavors, spices, wines, seafood and hamon. A huge city
@@ -103,10 +207,10 @@
                 <button type="button" class="btn btn-link" >More <i class="fa fa-eye" aria-hidden="true"></i></button>
             </div>
         </div>    
-    
+
         <div class="article row col-md-6 col-12">
             <div class="article-thumbnail col-4">
-        		<img src="img/slovakia.jpg" alt="hellow">
+        		<img src="img/slovakia.jpg" alt="slovakia">
         	</div>
             <div class="article-content col-8">
                  Slovenia is a neighboring country with beautiful ski resorts. The Carpathian mountains in this country are incredible. 
@@ -117,8 +221,8 @@
     </div>  
     <br>
     <hr>
-    <h2 id="contact" class="text-center">Contact me</h1>
-    <h3 class="text-center">drop me a line right now</h2>
+    <h2 id="contact" class="text-center">Contact me</h2>
+    <h3 class="text-center">drop me a line right now</h3>
 
     <form id="contact-form">
       <div class="form-group">
@@ -134,17 +238,9 @@
         <textarea class="form-control" id="textareaMessage" rows="5"></textarea>
       </div>
       <div class="text-right">
-         <!--<input type="submit">>--> 
-          <button type="submit" class="btn btn-primary">Send</button
+          <button type="submit" class="btn btn-primary">Send</button>
       </div>
-      <!--<div>
-        <dialog id="thank-dialog">
-            <p>Thank you for contacting us!</p>
-        </dialog>
-        <dialog id="error-dialog">
-            <p>Sorry, an error has occured!</p>
-        </dialog>
-      </div> -->   
+
     </form>
     </div>
     <footer class="bg-dark">
@@ -156,11 +252,8 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
-
-<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
 </html>
